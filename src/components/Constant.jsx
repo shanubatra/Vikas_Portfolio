@@ -100,6 +100,11 @@ export const skills = [
         image: "skills/babel.png",
       },
       { name: "Android Studio", image: "skills/andstudio.png" },
+      
+      {
+        name: "Postman",
+        image: "skills/postman.png",
+      },
     ],
   },
   {
@@ -133,7 +138,7 @@ export const skills = [
         image: "skills/provider.jpg",
       },
       {
-        name: "Getz",
+        name: "Getx",
         image: "skills/getx.jpg",
       },
     ],
@@ -173,7 +178,7 @@ export const education = [
     course: "Class XII",
     grade: "81%",
     year: "2018 - 2019",
-    logo: "/img/school.jpg",
+    logo: "/img/school.png",
     decription:
       "I Completed My Class 12 High School Education At Rishikul Vidya Peeth School Sonipat",
   },
@@ -183,7 +188,7 @@ export const education = [
     course: "Class X",
     grade: "80%",
     year: "2016 - 2017",
-    logo: "/img/school.jpg",
+    logo: "/img/school.png",
     decription:
       "I Completed My Class 10 Education At Rishikul Vidya Peeth School Sonipat",
   },
