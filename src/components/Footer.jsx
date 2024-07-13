@@ -31,7 +31,7 @@ const Footer = () => {
             <AiFillLinkedin className="text-xl" />
           </a>
           <a
-            href="https://github.com/vikasdhaka"
+            href="https://github.com/vikasdhaka16"
             target="_blank"
             rel="noreferrer"
             className="transition ease-in-out duration-300 rounded-md hover:scale-110 cursor-pointer hover:-translate-y-1"

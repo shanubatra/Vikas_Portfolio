@@ -3,7 +3,7 @@ export const project = [
     title: "VMS(Video Management Softwares)",
     description:
       " Developed a comprehensive video management solution enabling live CCTV camera and implemented seamless video playback functionality with  PTZ (Pan-Tilt-Zoom) camera control for enhanced surveillance and event monitoring capabilities enhanced user experience.",
-    image: "/img/hrm.jpeg",
+    image: "/img/vms.jpeg",
     play: "https://play.google.com/store/apps/details?id=com.sparshcctvhr.app&hl=en_IN",
     app: "https://apps.apple.com/in/app/sparsh-hrms/id6502435816",
     technologies: [
@@ -76,10 +76,7 @@ export const skills = [
         name: "TypeScript",
         image: "skills/typescript.jpg",
       },
-      {
-        name: "Tailwind",
-        image: "skills/Tailwind.png",
-      },
+
       {
         name: "Bootstrap",
         image: "skills/b.png",
@@ -113,12 +110,12 @@ export const skills = [
         image: "skills/restapi.jpg",
       },
       {
-        name: "Provider",
-        image: "skills/provider.jpg",
+        name: "MongoDB",
+        image: "skills/mongo.png",
       },
       {
-        name: "Getz",
-        image: "skills/getx.jpg",
+        name: "NextJs",
+        image: "skills/nextjs.png",
       },
 
       {
@@ -128,11 +125,25 @@ export const skills = [
     ],
   },
   {
+    title: "State Management",
+    skills: [
+      ,
+      {
+        name: "Provider",
+        image: "skills/provider.jpg",
+      },
+      {
+        name: "Getz",
+        image: "skills/getx.jpg",
+      },
+    ],
+  },
+  {
     title: "Others",
     skills: [
       {
         name: "GitHub",
-        image: "skills/Github.svg",
+        image: "skills/github.png",
       },
       {
         name: "C++",
@@ -164,7 +175,7 @@ export const education = [
     year: "2018 - 2019",
     logo: "/img/school.jpg",
     decription:
-      "I Completed My Class 12 High School Education At Hindu Vidya Peeth School Sonipat",
+      "I Completed My Class 12 High School Education At Rishikul Vidya Peeth School Sonipat",
   },
   {
     id: 2,
@@ -174,7 +185,7 @@ export const education = [
     year: "2016 - 2017",
     logo: "/img/school.jpg",
     decription:
-      "I Completed My Class 10 Education At Hindu Vidya Peeth School Sonipat",
+      "I Completed My Class 10 Education At Rishikul Vidya Peeth School Sonipat",
   },
 ];
 
