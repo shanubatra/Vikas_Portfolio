@@ -100,7 +100,7 @@ export const skills = [
         image: "skills/babel.png",
       },
       { name: "Android Studio", image: "skills/andstudio.png" },
-      
+
       {
         name: "Postman",
         image: "skills/postman.png",
@@ -119,8 +119,8 @@ export const skills = [
         image: "skills/mongo.png",
       },
       {
-        name: "NextJs",
-        image: "skills/nextjs.png",
+        name: "NestJs",
+        image: "skills/nestjs.png",
       },
 
       {
@@ -132,7 +132,6 @@ export const skills = [
   {
     title: "State Management",
     skills: [
-      ,
       {
         name: "Provider",
         image: "skills/provider.jpg",
