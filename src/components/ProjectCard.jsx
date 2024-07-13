@@ -11,7 +11,7 @@ export default function ProjectCard({
 }) {
   return (
     <div className="max-w-sm sm:max-w-sm md:max-w-sm bg-gray-900 border border-neutral-100 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-      <a href="#">
+      <a href={image}>
         <img
           className="h-[500px] w-full rounded-t-lg object-center"
           src={image}
@@ -19,7 +19,7 @@ export default function ProjectCard({
         />
       </a>
       <div className="p-4 sm:p-6">
-        <a href="#">
+        <a href="/" target="_blank" rel="noreferrer">
           <h5 className="text-2xl mb-2  sm:text-xl md:text-2xl lg:text-3xl font-bold tracking-tight text-white bg-clip-text text-transparent bg-gradient-to-r from-yellow-200 to-pink-500">
             {title}
           </h5>
@@ -42,6 +42,7 @@ export default function ProjectCard({
           to={play}
           className="transition ease-in-out duration-300 p-3 rounded-md text-white border-2 hover:bg-white hover:text-black  hover:-translate-y-1 cursor-pointer flex items-center"
           target="_blank"
+          rel="noreferrer"
         >
           <FaGooglePlay className="me-2" />
           PlayStore Link
@@ -50,7 +51,7 @@ export default function ProjectCard({
           to={app}
           className="transition ease-in-out duration-300 p-3 rounded-md text-white border-2 hover:bg-white hover:text-black  hover:-translate-y-1 cursor-pointer flex items-center"
           target="_blank"
-
+          rel="noreferrer"
         >
           <FaAppStore className="me-2" />
           AppStore Link

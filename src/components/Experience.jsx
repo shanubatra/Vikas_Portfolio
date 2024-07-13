@@ -45,7 +45,7 @@ const Experience = () => {
                 <a
                   className="flex justify-center items-center w-full h-full"
                   href={experience.url}
-                  target="_blank"
+                  target="_blank"                  rel="noreferrer"
                 >
                   <img
                     src={experience.logo}

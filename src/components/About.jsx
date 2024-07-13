@@ -23,17 +23,20 @@ const About = () => {
           <li></li>
           <li></li>
         </ul>
-        <div className="flex flex-col justify-around z-10" >
+        <div className="flex flex-col justify-around z-10">
           <div className="sm:px-16 px-2">
             <h2 className="text-4xl sm:text-5xl font-extrabold mt-2">
               Introduction
             </h2>
             <p className="mt-3 mb-6 text-[17px] max-w-3xl leading-[30px]">
-              👨‍💻 I’m Vikas Dhaka, a 2023 graduate 🎓 passionate about crafting robust frontend systems and captivating mobile applications. As a dedicated Flutter developer, I focus on creating seamless and intuitive user experiences.
+              👨‍💻 I’m Vikas Dhaka, a 2023 graduate 🎓 passionate about crafting
+              robust frontend systems and captivating mobile applications. As a
+              dedicated Flutter developer, I focus on creating seamless and
+              intuitive user experiences.
               <a
                 className="text-green-300 hover:text-green-500 duration-300"
                 href="https://www.linkedin.com/in/vikas-dhaka/"
-                target="_blank"
+                target="_blank"                rel="noreferrer"
               >
                 Flutter developer
               </a>
@@ -53,7 +56,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };

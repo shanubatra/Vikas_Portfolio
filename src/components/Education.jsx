@@ -14,14 +14,13 @@ const Education = () => {
         className="education bg-black w-full text-white pt-4 overflow-x-hidden"
         id="education"
       >
-     
         <div className="pt-14 sm:px-16 sm:mb-2">
           <p className="font-light">MY CARRER SO FAR.</p>
           <h2 className="text-4xl sm:text-5xl font-extrabold mt-2">
             Education.
           </h2>
         </div>
-        
+
         <VerticalTimeline className="mt-9 mb-10">
           {education.map((education) => (
             <VerticalTimelineElement
@@ -35,6 +34,7 @@ const Education = () => {
                   className="flex justify-center items-center w-full h-full"
                   href={education.url}
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <img
                     src={education.logo}
