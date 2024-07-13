@@ -40,7 +40,7 @@ export default function ProjectCard({
       <div className="m-2 sm:m-4 lg:m-6 flex justify-between">
         <Link
           to={play}
-          className="transition ease-in-out duration-300 p-3 rounded-md text-white border-2 hover:bg-white hover:text-black  hover:-translate-y-1 cursor-pointer flex items-center"
+          className="transition ease-in-out duration-300 p-3 rounded-md text-white border-2 dec-none  hover:-translate-y-1 cursor-pointer flex items-center"
           target="_blank"
           rel="noreferrer"
         >
@@ -49,7 +49,7 @@ export default function ProjectCard({
         </Link>
         <Link
           to={app}
-          className="transition ease-in-out duration-300 p-3 rounded-md text-white border-2 hover:bg-white hover:text-black  hover:-translate-y-1 cursor-pointer flex items-center"
+          className="transition ease-in-out duration-300 p-3 rounded-md text-white border-2 dec-none  hover:-translate-y-1 cursor-pointer flex items-center"
           target="_blank"
           rel="noreferrer"
         >
